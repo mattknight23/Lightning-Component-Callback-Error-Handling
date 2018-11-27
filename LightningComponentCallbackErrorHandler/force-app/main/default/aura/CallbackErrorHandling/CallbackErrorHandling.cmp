@@ -1,0 +1,10 @@
+<aura:component>
+    <aura:method name="handleCallback" action="{!c.handleCallback}" 
+                        description="Sample method with parameters"> 
+       <aura:attribute name="component" type="Object"/> 
+       <aura:attribute name="response" type="Object"/> 
+       <aura:attribute name="successFunction" type="Function"/> 
+    </aura:method>
+
+    <div class="slds-card__body slds-card__body_inner" aura:id="messageDiv"></div>
+</aura:component>
